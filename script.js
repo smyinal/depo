@@ -78,17 +78,3 @@ function deleteComment(index) {
         loadComments(); // Güncellenmiş yorumları yükle
     }
 }
-function detectDevice() {
-    const width = window.innerWidth;
-    const height = window.innerHeight;
-
-    if (width < 768) {
-        return 'mobile';
-    } else {
-        return 'desktop';
-    }
-}
-
-const deviceType = detectDevice();
-console.log("Cihaz türü:", deviceType);
-
