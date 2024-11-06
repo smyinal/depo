@@ -52,7 +52,7 @@
     width: 100%;
     height: 1000px; /* Görselin boyutuna göre yüksekliği ayarlayın */
     overflow: hidden;
-    top: 12500px;
+    top: 1000px;
     background-color: transparent; /* Arka plan rengi */
 }
 
@@ -60,8 +60,8 @@
 .moving-car {
     position: absolute; /* Arabanın konumlandırılması için */
     top: 0; /* Görselin üst kısmında başlayacak */
-    width: 1000px; /* Arabanın genişliği */
-    height: 1000px; /* Arabanın yüksekliği */
+    width: 500px; /* Arabanın genişliği */
+    height: 500px; /* Arabanın yüksekliği */
     animation: moveCar 5s linear infinite; /* Sürekli hareket */
 }
 
@@ -97,7 +97,7 @@
 }
 
 .moving-car {
-    width: 1000px; /* Araba boyutunu ayarlama */
+    width: 500px; /* Araba boyutunu ayarlama */
     animation: moveCar 5s linear infinite; /* Araba hareket animasyonu */
 }
 
@@ -109,7 +109,7 @@
 /* QR Kodu Stili */
 .qr-code1-container {
     position: absolute; /* Konumlandırma için */
-    top: 1080px; /* Üstten 20 piksel aşağıda */
+    top: 3080px; /* Üstten 20 piksel aşağıda */
     left: 60%; /* Sol kenarı %50 konumda ayarlar */
     transform: translateX(-50%); /* Sol kenarı %50 kaydırarak ortalar */
     z-index: 10; /* Görselin üstünde olmasını sağlar */
@@ -122,7 +122,7 @@
 
 .qr-code2-container {
     position: absolute; /* Konumlandırma için */
-    top: 1030px; /* Üstten 20 piksel aşağıda */
+    top: 4030px; /* Üstten 20 piksel aşağıda */
     left: 60%; /* Sol kenarı %50 konumda ayarlar */
     transform: translateX(-50%); /* Sol kenarı %50 kaydırarak ortalar */
     z-index: 10; /* Görselin üstünde olmasını sağlar */
