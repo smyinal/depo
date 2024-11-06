@@ -80,7 +80,7 @@
 
 .comment-section {
     position: absolute; /* Yorum alanını konumlandırmak için */
-    bottom: calc(100% - 10700px); /* 880 piksel yukarıda olacak */
+    bottom: calc(100% - 1000px); /* 880 piksel yukarıda olacak */
     left: 50%; /* Sol kenarı %50 konumda ayarlar */
     transform: translateX(-50%); /* Sol kenarı %50 kaydırarak ortalar */
     background-color: rgba(255, 255, 255, 0.8); /* Yorum alanı arka planı */
@@ -109,7 +109,7 @@
 /* QR Kodu Stili */
 .qr-code1-container {
     position: absolute; /* Konumlandırma için */
-    top: 8080px; /* Üstten 20 piksel aşağıda */
+    top: 1080px; /* Üstten 20 piksel aşağıda */
     left: 60%; /* Sol kenarı %50 konumda ayarlar */
     transform: translateX(-50%); /* Sol kenarı %50 kaydırarak ortalar */
     z-index: 10; /* Görselin üstünde olmasını sağlar */
@@ -122,7 +122,7 @@
 
 .qr-code2-container {
     position: absolute; /* Konumlandırma için */
-    top: 7030px; /* Üstten 20 piksel aşağıda */
+    top: 1030px; /* Üstten 20 piksel aşağıda */
     left: 60%; /* Sol kenarı %50 konumda ayarlar */
     transform: translateX(-50%); /* Sol kenarı %50 kaydırarak ortalar */
     z-index: 10; /* Görselin üstünde olmasını sağlar */
